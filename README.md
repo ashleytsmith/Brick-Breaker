@@ -11,8 +11,8 @@ This project written in Java mainly utilising the awt and swing libraries. javax
 
 There are 8 different levels to play each with a different map. The map can either be straight where bricks are arranged in a grid or staggered where the bricks are arranged in a brick wall.
 
-![straight map](https://github.com/asmithfrommany/Brick-Breaker/tree/main/ImagesForGitHub/straight.png)
-![staggered map](https://github.com/asmithfrommany/Brick-Breaker/tree/main/ImagesForGitHub/staggered.png)
+![straight map](https://github.com/asmithfrommany/Brick-Breaker/ImagesForGitHub/straight.png)
+![staggered map](https://github.com/asmithfrommany/Brick-Breaker/ImagesForGitHub/staggered.png)
 
 Each brick has can have a different powerup and a different color. The powerups implemented so far are:
 
