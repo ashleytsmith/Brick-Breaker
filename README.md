@@ -3,7 +3,7 @@
 
 ## Brief description of the game
 
-The aim of Brick Breaker also referred to as Breakout Ball is to destroy all the bricks in the level and keep the ball in play using the paddle. Hitting the bricks can trigger powerups for example increasing the size of the paddle.
+The aim of Brick Breaker also referred to as Breakout Ball is to destroy all the bricks in the level and keep the ball in play using the paddle. Hitting the bricks can trigger powerups, for example, increasing the size of the paddle.
 
 This project written in Java mainly utilising the awt and swing libraries. javax.swing.Timer evolves the game through time, java.awt.Rectangle is used to handle collision events and java.awt.Graphics is used to paint the graphics to the screen. 
 
