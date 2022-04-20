@@ -11,12 +11,12 @@ This project written in Java mainly utilising the awt and swing libraries. javax
 
 There are 8 different levels to play each with a different map. The map can either be straight where bricks are arranged in a grid or staggered where the bricks are arranged in a brick wall. Each brick has can have a different powerup and a different color. The powerups implemented so far are:
 
-*Speed up and slow down the ball
-*Increase and decrease paddle size
-*Space invaders	(all bricks in the map move down towards the paddle)
-*Moving bricks		(bricks move sideways upon collision)
-*New ball
-*Gain or lose a Life
+* Speed up and slow down the ball
+* Increase and decrease paddle size
+* Space invaders	(all bricks in the map move down towards the paddle)
+* Moving bricks		(bricks move sideways upon collision)
+* New ball
+* Gain or lose a Life
 
 The different levels are accessible via the main menu and the user can navigate between levels using a combination of clicking and key presses. The information for each level is stored in the Maps folder and the code is split into 6 different classes:
 
@@ -39,7 +39,7 @@ The balls currently in play are in stored in an list (an ArrayList to be exact) 
 
 Some straightforward extensions to the code would be: 
 
-*Implement more powerups and maybe associate each powerup with a certain colour
-*Extend to 2 player ( Court() is easy to resize and it would be easy to change the keys in the key handler)
-*Make a clickable level builder where the player can design and save their own level (Build a map as normal, make each brick clickable and have various buttons for designing e.g. fill all, toggle between straight and staggered etc)
+* Implement more powerups and maybe associate each powerup with a certain colour
+* Extend to 2 player ( Court() is easy to resize and it would be easy to change the keys in the key handler)
+* Make a clickable level builder where the player can design and save their own level (Build a map as normal, make each brick clickable and have various buttons for designing e.g. fill all, toggle between straight and staggered etc)
 
