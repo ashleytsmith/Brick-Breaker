@@ -37,7 +37,7 @@ The balls currently in play are in stored in an list (an ArrayList to be exact) 
 
 ## Extension ideas
 
-Some straightforward extensions to the code would be: 
+Some nice extensions to the code would be: 
 
 * Implement more powerups and maybe associate each powerup with a certain colour
 * Extend to 2 player ( Court() is easy to resize and it would be easy to change the keys in the key handler)
