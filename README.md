@@ -20,12 +20,12 @@ There are 8 different levels to play each with a different map. The map can eith
 
 The different levels are accessible via the main menu and the user can navigate between levels using a combination of clicking and key presses. The information for each level is stored in the Maps folder and the code is split into 6 different classes:
 
-* Navigate	Load levels, window to put the game inside and navigate menus
-* Pieces		Contains the different parts of the game e.g. ball and paddle classes
-* Gameplay	Handles collision events and key presses
-* Design		Contains the map class which holds all information needed to build a level and the MapInfo class which is a data carrying class
-* Draw		All drawing of graphics to the screen
-* Maths		Simple functions for building maps and incrementing values
+*  **Navigate:**	Load levels, window to put the game inside and navigate menus
+*  **Pieces:**		Contains the different parts of the game e.g. ball and paddle classes
+*  **Gameplay:**	Handles collision events and key presses
+*  **Design:**		Contains the map class which holds all information needed to build a level and the MapInfo class which is a data carrying class
+*  **Draw:**		All drawing of graphics to the screen
+*  **Maths:**		Simple functions for building maps and incrementing values
 
 ## Design choices
 
