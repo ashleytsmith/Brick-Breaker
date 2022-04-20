@@ -13,7 +13,7 @@ There are 8 different levels to play each with a different map. The map can eith
 
 
 <p align="center">
-<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/straight.png" width="425" alt="straight map"> <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/staggered.png" width="425" alt = "staggered map"> 
+<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/straight.png" width="300" alt="straight map"> <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/staggered.png" width="300" alt = "staggered map"> 
 </p>
 
 
