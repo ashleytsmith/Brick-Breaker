@@ -16,11 +16,6 @@ There are 8 different levels to play each with a different map. The map can eith
 <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/straight.png" width="300" alt="straight map"> <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/staggered.png" width="300" alt = "staggered map"> 
 </p>
 
-
-
-
-
-
 Each brick has can have a different powerup and a different color. The powerups implemented so far are:
 
 * Speed up and slow down the ball
@@ -29,6 +24,11 @@ Each brick has can have a different powerup and a different color. The powerups 
 * Moving bricks		(bricks move sideways upon collision)
 * New ball
 * Gain or lose a Life
+
+<p align="center">
+<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/MainMenu.gif" width="400" alt="main menu"> 
+</p>
+
 
 The different levels are accessible via the main menu and the user can navigate between levels using a combination of clicking and key presses. The information for each level is stored in the Maps folder and the code is split into 6 different classes:
 
