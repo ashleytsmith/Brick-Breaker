@@ -44,7 +44,7 @@ The different levels are accessible via the main menu and the user can navigate 
 The classes are arranged in order to make them well encapsulated from one another. This made multiple balls at once easy to implement and meant methods could be easily reused for example, to make a “bot game” in the main menu only one small method followBall() needed to be written and combined with other methods already used for the main game.
 
 <p align="center">
-<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/MainMenu.gif" width="400" alt="main menu"> 
+<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/mainmenu.gif" width="400" alt="main menu"> 
 </p>
 
 The majority of values are chosen to be integers in large part because many of the painting functions can only paint to within one pixel. To make sure the game keeps its proportions when resizing the game window, changing the court size or changing the sizes of the pieces the delay on the swing timer scales inversely with the court width. The sizes of most game pieces are scaled relative to each other and simple checks are made in cases where rounding may affect the appearance of the map for example the gap between the bricks and the border.
