@@ -7,7 +7,7 @@ The aim of Brick Breaker also referred to as Breakout Ball is to destroy all the
 
 This project written in Java mainly utilising the awt and swing libraries. javax.swing.Timer evolves the game through time, java.awt.Rectangle is used to handle collision events and java.awt.Graphics is used to paint the graphics to the screen. 
 
-## How to run and edit on your machine using Visual Studio Code
+## How to run and edit using Visual Studio Code (reccommended to use an IDE for java development)
 
 Install Visual Studio Code:
 
@@ -28,7 +28,7 @@ Run within Visual Studio Code:
 
 Click on one of the classes (any file with a .java extension) and the click the run java button. This should give the option to run the main function located in Frame.java (make sure your OS allows VSstudio access to run the program).
 
-## How to run using the command line
+## How to run and edit using the command line (quicker to setup)
 
 Check whether you have java installed:
 
@@ -40,6 +40,27 @@ If not then install it:
 
 ```
 sudo apt-get install openjdk-7-jdk
+```
+
+Clone the repo:
+
+```
+git clone https://github.com/asmithfrommany/Brick-Breaker.git
+```
+
+Build using javac (in OSX or Linux):
+
+```
+cd Brick-Breaker
+find -name "*.java" > sources.txt
+$ javac @sources.txt
+```
+This will produce a .class file for every java file.  
+
+Run the program 
+
+```
+java Navigate/Frame
 ```
 
 ## Main features
