@@ -5,18 +5,19 @@
 
 The aim of Brick Breaker also referred to as Breakout Ball is to destroy all the bricks in the level and keep the ball in play using the paddle. Hitting the bricks can trigger powerups, for example, increasing the size of the paddle.
 
-This project written in Java mainly utilising the awt and swing libraries. javax.swing.Timer evolves the game through time, java.awt.Rectangle is used to handle collision events and java.awt.Graphics is used to paint the graphics to the screen. 
+This project written in Java mainly utilising the awt and swing libraries. A swing timer evolves the game through time, java.awt.Rectangle is used to handle collision events and java.awt.Graphics is used to paint the graphics to the screen. 
 
-## How to run and edit using Visual Studio Code (reccommended to use an IDE for java development)
+## How to run and edit using Visual Studio Code (its reccommended to use an IDE for java development)
 
 Install Visual Studio Code:
 
 Download from the website and follow the steps in the graphical installer.
 Install the Java Development Kit.
 
-(Optional but recommended) Install the extensions pack which contains:
-•	Language support for Java by Redhat
-•	Intellicode.
+(Optional but recommended) Install the extensions pack which contains amounst other things:
+
+* Language support for Java by Redhat
+*	Intellicode
 
 Download the files to your computer:
 
@@ -28,7 +29,7 @@ Run within Visual Studio Code:
 
 Click on one of the classes (any file with a .java extension) and the click the run java button. This should give the option to run the main function located in Frame.java (make sure your OS allows VSstudio access to run the program).
 
-## How to run and edit using the command line (quicker to setup)
+## How to run and edit using the command line (quicker to setup if want to view the project quiclkly)
 
 Check whether you have java installed:
 
@@ -76,10 +77,10 @@ Each brick has can have a different powerup and a different color. The powerups 
 
 * Speed up and slow down the ball
 * Increase and decrease paddle size
-* Space invaders	(all bricks in the map move down towards the paddle)
+* Space invaders  (all bricks in the map move down towards the paddle)
 * Moving bricks		(bricks move sideways upon collision)
 * New ball
-* Gain or lose a Life
+* Gain or lose a life
 
 <p align="center">
 <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/multipleballs.gif" width="400" alt="new ball powerup"> 
@@ -103,15 +104,15 @@ The classes are arranged in order to make them well encapsulated from one anothe
 <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/mainmenu.gif" width="400" alt="main menu"> 
 </p>
 
-The majority of values are chosen to be integers in large part because many of the painting functions can only paint to within one pixel. To make sure the game keeps its proportions when resizing the game window, changing the court size or changing the sizes of the pieces the delay on the swing timer scales inversely with the court width. The sizes of most game pieces are scaled relative to each other and simple checks are made in cases where rounding may affect the appearance of the map for example the gap between the bricks and the border.
+The majority of values are chosen to be integers in large part because many of the inbuilt painting functions take integer arguments becuase they paint to within one pixel. To make sure the game keeps its proportions when resizing the game window, changing the court size or changing the sizes of the pieces the delay on the swing timer scales inversely with the court width. The sizes of most game pieces are scaled relative to each other and simple checks are made in cases where rounding may affect the appearance of the map for example the gap between the bricks and the border.
 
-The balls currently in play are in stored in an list (an ArrayList to be exact) and this list is passed as a parameter into various methods e.g. brick.bounceBalls(), paddle.bounceBalls() etc. The bricks are also stored in a list, this makes bricks a little easier to work than using an array but would perhaps be a hinderance when trying to implement more complex powerups which rely on a given brick having information about its neighbours.
+The balls currently in play are in stored in an list (an ArrayList to be exact) and this list is passed as a parameter into various methods e.g. brick.bounceBalls(), paddle.bounceBalls() etc. The bricks are also stored in a list, this makes bricks a little easier to work than using an array but would perhaps be a hinderance when trying to implement more complex powerups which rely on a given brick having information about its neighbours. This would be reasonably stright forward to change in a further version of the code however.
 
 ## Extension ideas
 
 Some nice extensions to the code would be: 
 
-* Implement more powerups and maybe associate each powerup with a certain colour
-* Extend to 2 player ( Court() is easy to resize and it would be easy to change the keys in the key handler)
-* Make a clickable level builder where the player can design and save their own level (Build a map as normal, make each brick clickable and have various buttons for designing e.g. fill all, toggle between straight and staggered etc)
+* Implement more powerups and maybe associate each powerup with a certain colour. 
+* Extend to 2 player ( Court objects are easy to resize and it would be easy to change the keys in the key handler).
+* Make a clickable level builder where the player can design and save their own level (Build a map as normal, make each brick clickable and have various buttons for designing e.g. fill all, toggle between straight and staggered etc).
 
