@@ -29,7 +29,7 @@ Run within Visual Studio Code:
 
 Click on one of the classes (any file with a .java extension) and the click the run button. This should give the option to run the main function located in Frame.java (make sure your OS allows VSstudio access to run the program).
 
-## How to run and edit using the command line (quicker to setup if want to view the project quiclkly)
+## How to run and edit using the command line (quicker to setup if you want to view the project quiclkly)
 
 Check whether you have java installed:
 
@@ -40,7 +40,7 @@ java -–version
 If not then install it:
 
 ```
-sudo apt-get install openjdk-7-jdk
+sudo apt-get install openjdk-17-jdk
 ```
 
 Clone the repo:
