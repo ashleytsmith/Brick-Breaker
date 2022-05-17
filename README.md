@@ -70,7 +70,7 @@ There are 8 different levels to play each with a different map. The map can eith
 
 
 <p align="center">
-<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/straight.png" width="300" alt="straight map"> <img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/staggered.png" width="300" alt = "staggered map"> 
+<img src="https://github.com/ashleytsmith/Brick-Breaker/blob/main/ImagesForGitHub/straight.png" width="300" alt="straight map"> <img src="https://github.com/ashleytsmith/Brick-Breaker/blob/main/ImagesForGitHub/staggered.png" width="300" alt = "staggered map"> 
 </p>
 
 Each brick has can have a different powerup and a different color. The powerups implemented so far are:
@@ -83,7 +83,7 @@ Each brick has can have a different powerup and a different color. The powerups 
 * Gain or lose a life
 
 <p align="center">
-<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/multipleballs.gif" width="400" alt="new ball powerup"> 
+<img src="https://github.com/ashleytsmith/Brick-Breaker/blob/main/ImagesForGitHub/multipleballs.gif" width="400" alt="new ball powerup"> 
 </p>
 
 
@@ -101,7 +101,7 @@ The different levels are accessible via the main menu and the user can navigate 
 The classes are arranged in order to make them well encapsulated from one another. This made multiple balls at once easy to implement and meant methods could be easily reused for example, to make a “bot game” in the main menu only one small method followBall() needed to be written and combined with other methods already used for the main game.
 
 <p align="center">
-<img src="https://github.com/asmithfrommany/Brick-Breaker/blob/main/ImagesForGitHub/mainmenu.gif" width="400" alt="main menu"> 
+<img src="https://github.com/ashleytsmith/Brick-Breaker/blob/main/ImagesForGitHub/mainmenu.gif" width="400" alt="main menu"> 
 </p>
 
 The majority of values are chosen to be integers in large part because many of the inbuilt painting functions take integer arguments becuase they paint to within one pixel. To make sure the game keeps its proportions when resizing the game window, changing the court size or changing the sizes of the pieces the delay on the swing timer scales inversely with the court width. The sizes of most game pieces are scaled relative to each other and simple checks are made in cases where rounding may affect the appearance of the map, for example, the gap between the bricks and the border.
