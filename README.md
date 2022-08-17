@@ -98,7 +98,7 @@ The different levels are accessible via the main menu and the user can navigate 
 
 ## Design choices
 
-The classes are arranged in order to make them well encapsulated from one another. This made multiple balls at once easy to implement and meant methods could be easily reused for example, to make a “bot game” in the main menu only one small method followBall() needed to be written and combined with other methods already used for the main game.
+A strong focus was placed using best practices for programming in Java and OOP as a whole with particular focus placed on making sure the classes are well encapsulated from one another. This made multiple balls at once easy to implement and meant methods could be easily reused for example, to make a “bot game” in the main menu only one small method followBall() needed to be written and combined with other methods already used for the main game.
 
 <p align="center">
 <img src="https://github.com/ashleytsmith/Brick-Breaker/blob/main/ImagesForGitHub/mainmenu.gif" width="400" alt="main menu"> 
