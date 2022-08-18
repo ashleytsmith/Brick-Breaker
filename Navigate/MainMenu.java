@@ -70,7 +70,7 @@ class MainMenu extends JPanel implements ActionListener {
 
 		buttonsInfo = new int[] { rows, columns, buttonSize, gapBetweenButtons, buttonsPanelX, buttonsPanelY };
 
-		// Add a buttons paddle in the middle of the screen
+		// Add a buttons panel in the middle of the screen
 
 		this.setLayout(null);
 
